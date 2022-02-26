@@ -2,7 +2,7 @@
 
 namespace Number
 {
-	public class Number
+	public class Program
 	{
         static string NumberToString(int X)
         {
@@ -182,7 +182,7 @@ namespace Number
                 {
                     int Value;
                     Value = int.Parse(args[0]);
-                    Console.WriteLine(Number.NumberToString(Value));
+                    Console.WriteLine(NumberToString(Value));
                 }
             }
         }
